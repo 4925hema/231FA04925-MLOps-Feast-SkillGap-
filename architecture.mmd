@@ -1,0 +1,11 @@
+flowchart TD
+A[Original Student Skill-Gap CSV] --> B[Cleaning + Feature Engineering]
+B --> C[student_features.parquet]
+C --> D[Feast FileSource]
+D --> E[student_skill_features FeatureView]
+E --> F[Historical Retrieval]
+F --> G[Random Forest Model]
+E --> H[Materialization]
+H --> I[SQLite Online Store]
+I --> J[Online Feature Retrieval]
+J --> K[Final Skill Gap Prediction]

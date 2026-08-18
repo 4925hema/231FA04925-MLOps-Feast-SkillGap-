@@ -1,0 +1,13 @@
+MLOps-Feast-SkillGap project
+- Assignment source: docs/CLA_1_assignment.docx
+- Supplied dataset: data/raw/skill_gap_students.csv
+- Main workflow: run_project.py
+- Feast definitions: feature_repo/
+- Data preparation: src/prepare_data.py
+- Historical retrieval: src/get_historical.py
+- Model training: src/train_model.py
+- Materialization: src/materialize.py
+- Online retrieval: src/get_online.py
+- Prediction: src/predict.py
+- Reference outputs: outputs/
+- Parquet is generated locally by prepare_data.py after installing PyArrow.

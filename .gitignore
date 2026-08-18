@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Feast generated state
+feature_repo/data/registry.db
+feature_repo/data/online_store.db
+feature_repo/data/*.db
+
+# Generated model/output artifacts
+models/*.joblib
+outputs/*.csv
+outputs/*.json
+outputs/*.txt
+
+# Local processed data can be regenerated
+data/processed/*.parquet
+data/processed/cleaned_dataset.csv
