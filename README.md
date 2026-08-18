@@ -910,27 +910,23 @@ MLOps-Feast-SkillGap/
 Then display them in this README using:
 
 ```markdown
-## 📸 Project Screenshots
+## 📸 Project Report Images
+
+### Dataset Profile
+
+![Dataset Profile](images/01_dataset_profile.png)
+
+### Data Visualization
+
+![Data Visualization](images/02_data_visualization.png)
 
 ### Feast Architecture
 
-![Feast Architecture](images/architecture.png)
+![Feast Architecture](images/03_feast_architecture.jpeg)
 
-### Feast Apply
+### Project Output
 
-![Feast Apply](images/feast-apply.png)
-
-### Historical Retrieval
-
-![Historical Retrieval](images/historical-retrieval.png)
-
-### Online Store
-
-![Online Store](images/online-store.png)
-
-### Prediction
-
-![Prediction](images/prediction.png)
+![Project Output](images/04_project_output.png)
 ```
 
 ---
